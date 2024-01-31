@@ -36,13 +36,13 @@ public static boolean adminLogin(String username,String password) throws Throwab
 }
 public void add()
 {
-	int a=32,b=87,c;
+	int a=65654,b=7898,c;
 	c=a+b;
 	System.out.println(c);
 }
 public void div()
 {
-	int a=678,b=34,c;
+	int a=5465,b=66,c;
 	c=a/b;
 	System.out.println(c);
 }
