@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[No of rows are::5]]>
+    </line>
+    <line>
+      <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect user ID or password-----dashboard--------http://webapp.qedgetech.com/login.php]]>
+    </line>
+    <line>
+      <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+    </line>
+    <line>
+      <![CDATA[Incorrect user ID or password-----dashboard--------http://webapp.qedgetech.com/login.php]]>
+    </line>
+    <line>
+      <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-01-08T17:36:36 IST" name="Surefire suite" finished-at="2024-01-08T17:37:08 IST" duration-ms="32118">
+    <groups>
+    </groups>
+    <test started-at="2024-01-08T17:36:36 IST" name="Surefire test" finished-at="2024-01-08T17:37:08 IST" duration-ms="32118">
+      <class name="driverFactory.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AppTest@4d5b6aac]" started-at="2024-01-08T17:36:36 IST" name="setUp" finished-at="2024-01-08T17:36:40 IST" duration-ms="3829" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AppTest@4d5b6aac]" started-at="2024-01-08T17:36:40 IST" name="startTest" finished-at="2024-01-08T17:37:07 IST" duration-ms="27348" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[No of rows are::5]]>
+            </line>
+            <line>
+              <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect user ID or password-----dashboard--------http://webapp.qedgetech.com/login.php]]>
+            </line>
+            <line>
+              <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+            </line>
+            <line>
+              <![CDATA[Incorrect user ID or password-----dashboard--------http://webapp.qedgetech.com/login.php]]>
+            </line>
+            <line>
+              <![CDATA[Username and password are Valid::dashboard------http://webapp.qedgetech.com/dashboard.php]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AppTest@4d5b6aac]" started-at="2024-01-08T17:37:07 IST" name="tearDown" finished-at="2024-01-08T17:37:08 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
