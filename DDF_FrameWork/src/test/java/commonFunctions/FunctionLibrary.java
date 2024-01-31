@@ -34,6 +34,18 @@ public static boolean adminLogin(String username,String password) throws Throwab
 		return false;
 	}
 }
+public void add()
+{
+	int a=32,b=87,c;
+	c=a+b;
+	System.out.println(c);
+}
+public void div()
+{
+	int a=678,b=34,c;
+	c=a/b;
+	System.out.println(c);
+}
 }
 
 
